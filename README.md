@@ -11,7 +11,7 @@ This project was bootstrapped with [Create React App](https://github.com/faceboo
 
 
 
-Tp view the deployed version, click here []()
+Tp view the deployed version, click here [https://matching-memory-qnn.netlify.app/](https://matching-memory-qnn.netlify.app/)
 
 In the project directory, you can run:
 
