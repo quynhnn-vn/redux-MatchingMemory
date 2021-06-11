@@ -13,4 +13,4 @@ Run `yarn install` inside the project's root directory (make sure you have Node 
 
 Run `yarn start` and open http://localhost:3000 to view it in the browser.
 
-Open [https://matching-memory-qnn.netlify.app/](https://matching-memory-qnn.netlify.app/) to view it in deployed ver
+Open [https://matching-memory-qnn.netlify.app/](https://matching-memory-qnn.netlify.app/) to view it in deployed verison
