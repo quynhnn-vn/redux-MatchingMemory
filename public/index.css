@@ -58,6 +58,7 @@ body {
 .score-container {
   background-color: #f2f2f2;
   padding: 18px 158px 23px 159px;
+  margin: 0 auto;
   text-align: center;
 }
 .score-container h2 {
