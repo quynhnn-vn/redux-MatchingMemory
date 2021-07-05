@@ -10,8 +10,8 @@ export const Score = () => {
   // Display number of matched card pairs
   return (
     <div className="score-container">
-      Matched Pairs: {Math.floor(cardsMatched.length / 2)}
-      {currentBoard.length === cardsMatched.length && <p>You win !</p>}
+      <h2>Matched Pairs: {Math.floor(cardsMatched.length / 2)}</h2>
+      {currentBoard.length === cardsMatched.length && <p>You win!</p>}
     </div>
   );
 };

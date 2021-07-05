@@ -2,7 +2,7 @@
 
 html,
 body {
-  margin: 0;
+  margin: 10px;
 }
 
 * {
@@ -59,9 +59,12 @@ body {
   background-color: #f2f2f2;
   padding: 18px 158px 23px 159px;
   text-align: center;
+}
+.score-container h2 {
   font-size: 32px;
 }
 .score-container p {
+  font-size: 30px;
   color: #4fe0b0;
   margin: 0;
 }
@@ -86,5 +89,14 @@ body {
 
 .start-button:hover,
 .start-button:focus {
-  background-color: #141c3a;;
+  background-color: #141c3a;
+}
+
+@media only screen and (max-width: 768px) {
+  .score-container h2 {
+    font-size: 20px;
+  };
+  .score-container p {
+    font-size: 20px;
+  }
 }
