@@ -3,6 +3,7 @@
 html,
 body {
   margin: 0;
+  background-color: #141c3a;
 }
 
 * {
@@ -14,9 +15,9 @@ body {
   padding: 20px 0;
   text-align: center;
   border-radius: 6px;
-  border: solid 1px #141c3a;
+  border: solid 1px #ffffff;
   background-color: #141c3a;
-  color: white;
+  color: #ffffff;
   cursor: pointer;
   height: 75px;
   font-size: 16px;
@@ -44,7 +45,7 @@ body {
 }
 
 .card.matched {
-  color: #4fe0b0;
+  color: #5c8f5c;
 }
 
 .card.no-match {
@@ -57,17 +58,15 @@ body {
 
 .score-container {
   background-color: #f2f2f2;
-  padding: 18px 158px 23px 159px;
+  padding: 10px 158px 10px 159px;
   margin: 0 auto;
   text-align: center;
 }
 .score-container h2 {
   font-size: 32px;
 }
-.score-container p {
-  font-size: 30px;
-  color: #4fe0b0;
-  margin: 0;
+.score-container span:last-child {
+  color: #5c8f5c;
 }
 
 .footer > button {
@@ -78,25 +77,26 @@ body {
   transform: translateX(-50%);
   padding: 19px 40px 19px 40px;
   font-size: 20px;
-  border: none;
   color: #ffffff;
   cursor: pointer;
 }
 
 .start-button {
-  background-color: #2c3f81;
-
+  background-color: #141c3a;
+  border-radius: 6px;
+  border: solid 1px #ffffff;
 }
 
 .start-button:hover,
 .start-button:focus {
-  background-color: #141c3a;
+  background-color: #ffffff;
+  color: #141c3a;
 }
 
 @media only screen and (max-width: 768px) {
   .score-container h2 {
     font-size: 20px;
-  };
+  }
   .score-container p {
     font-size: 20px;
   }
